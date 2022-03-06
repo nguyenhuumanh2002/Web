@@ -6,8 +6,9 @@
     </head>
     <body>
         <h1>Bài tập buổi 1</h1>
-        <h3>Dịch vụ</h3>  
-<ul>
+        <h3>Dịch vụ</h3>
+        <link rel="stylesheet" href="index.css">  
+<ul class="ul">
     <li>
         <img width="15"height="15"src="fb.png"> <a href="https://www.facebook.com/"target="_blank">Đường Đến Facebook</a>
     </li>
@@ -28,8 +29,8 @@
         <span>Căng thẳng Ukraine lâm vào tình thế bế tắc, khi phương Tây và Nga đều tung ra các thông điệp thăm dò động thái tiếp theo của nhau.
             Ít nhất 100.000 quân Nga đã được triển khai tới ba mặt giáp biên giới Ukraine, khi Moskva yêu cầu phương Tây có những biện pháp cụ thể nhằm đảm bảo an ninh. Khi Mỹ và NATO không nhượng bộ trong những yêu cầu an ninh này, căng thẳng tiếp tục gia tăng...</span> <a href="https://vnexpress.net/5-cau-hoi-ve-khung-hoang-ukraine-4427343.html"target="_blank">Xem Thêm</a>
         <h4>Ca mắc mới COVID-19 tăng vọt lên 94.385 ca</h4>
-        <img width="500" height="270" src = "covid (1).jpg">
-            <table border="2">
+        <img width="500" height="270" src = "cv.jpg">
+            <table border="2" class="table">
                 <thead>
                     <h4>
                         <tr>
@@ -64,19 +65,21 @@
                             <td> 4.000 ca <img width="16" height="17" src="covid.jpg"> </td>
                         </tr>
                 </body>
-            </table>  
+            </table><br>
         <span>Hôm nay, Việt Nam ghi nhận 122.471 ca (↑35.505 ca so với ngày hôm qua), nâng tổng số ca nhiễm trong nước từ ngày 27/4 đến nay lên 3.364.213 tại 63 tỉnh thành.
             Trong số này, 66.227 ca cộng đồng (↑7.547 ca), 56.244 ca được phát hiện ở khu cách ly hoặc khu đã được phong tỏa (↑27.958 ca)....</span> <a href="https://vnexpress.net/covid-19/covid-19-viet-nam" target="_blank">Xem Thêm</a>  
         <h3> Giải trí </h3>  
         <video width="720" height="360" controls=""> 
             <source src="giaitri.mp4" type="video/mp4"> 
         </video><br>
-        <span>Nhập Email:</span> <input type="email" placeholder="Nhập email"><br>
-        <span>Password:</span> <input type="password" placeholder="Nhập password"><br>
-        <span>Họ Tên:</span> <input type="text" placeholder="Họ Tên"><br>
-        <span>Tuổi:</span> <input type="number" placeholder="Nhập tuổi"><br>
-        <div>
-            <span>Giới tính:</span> 
+        <div class="a">
+            <span>Nhập Email: <br> </span> <input type="email" placeholder="Nhập email"><br>
+            <span>Password: <br> </span> <input type="password" placeholder="Nhập password"><br>
+            <span>Họ Tên: <br> </span> <input type="text" placeholder="Họ Tên"><br>
+            <span>Tuổi: <br> </span> <input type="number" placeholder="Nhập tuổi"><br>
+        </div>
+        <div id="span1">
+            <span id="span2">Giới tính:</span><br> 
             <input type="radio" id="male" name="gender">
             <label for="male">Nam</label>
             <input type="radio" id="female" name="gender">
@@ -84,10 +87,13 @@
             <input type="radio" id="other" name="gender">
             <label for="other">Khác</label>
         </div>
-        <span>Ngày thánh năm sinh:</span> <input type="date"><br>
-        <span>Mức Lương / tháng: 12k USD</span> <input type="range" max="100" min="12" value="2"><span>100K USD</span><br>
-        <span>Màu sắc bạn yêu thích:</span> <input type="color"><br>
-        <span>Hình ảnh của bạn:</span> <input type="file"><br>
-        <input type="button" value="Gửi Thông Tin">
+        <div class="a">
+            <span>Ngày thánh năm sinh <br> </span> <input type="date"><br>
+            <span>Mức Lương / tháng:</span> <br> 
+            <span id="span1"> 12k USD</span> <input type="range" max="100" min="12" value="2"><span id="span1">100K USD</span><br>
+            <span>Màu sắc bạn yêu thích: <br> </span> <input type="color" value="#00FF11"><br>
+            <span>Hình ảnh của bạn: <br> </span> <input  id="span1" type="file"><br>
+            <input type="button" value="Gửi Thông Tin">
+        </div>
     </tbody>
 </html>

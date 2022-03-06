@@ -1,0 +1,35 @@
+body{
+    padding: 0;
+    margin: 0;
+    padding-bottom: 1000px;
+}
+.common{
+    text-decoration:underline;
+    color: rgb(3, 73, 15);
+    font-size: 50px;
+    font-weight: 600;
+}
+div.a {
+	text-align: center;
+}
+.red{
+    color: red;
+}
+.green{
+    color: green;
+}
+.blue{
+    color: blue;
+}
+.brown{
+    color:brown;
+}
+.block-span{
+    background:  red;
+}
+#span1{
+    color: rgb(79, 134, 72);
+}
+.block-span .blue{
+    color: violet;
+}
