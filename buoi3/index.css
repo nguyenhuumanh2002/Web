@@ -1,0 +1,12 @@
+.block{
+    width: 100px;
+    height: 100px;
+    background: red;
+}
+.dau{
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    top: 0;
+}
